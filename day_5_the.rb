@@ -4,7 +4,7 @@ require 'net/http'
 require 'nokogiri'
 
 url = 'http://ruby-metaprogramming.rubylearning.com/html/ruby_metaprogramming_1.html'
-regvar = /\bthe\b/
+regvar = /\bthe\b/i
 
 puts '--- net/http ver.1'
 url = URI.parse(url)
